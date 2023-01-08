@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "@delalyra/guess",
+  "version": "0.0.1",
+  "main": "guess.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node guess.js"
+  },
+  "keywords": [],
+  "author": "Vega de la Lyra <lyradeperseo@gmail.com>",
+  "license": "MIT",
+  "description": "Guess a number from 0 to 1!",
+  "bin": {
+    "guess": "./guess.js"
+  },
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
